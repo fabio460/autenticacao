@@ -20,7 +20,8 @@ export default NextAuth({
             return null
     
           }
-        }
+        },
+        
       }):
       GoogleProvider({
         clientId: process.env.GOOGLE_ID as string,
